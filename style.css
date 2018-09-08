@@ -1,22 +1,42 @@
-.jumbotron {
-    min-width: 585px;
-    margin: 10px auto;
-    display: flex;
-    justify-content: center;
-    margin: 10px 10px 10px 10px;
-    border: 0.08em solid black;
-    text-align: center;
-}
-
-.row {
-    min-width: 300px;
-    height: 75px;
-    margin: 10px auto;
-    display: flex;
-    justify-content: center;
-    margin: 10px 10px 10px 10px;
-    border: 0.08em solid black;
-    text-align: center;
-    background-color: #F7F7F7;
-    font-size: 50px;
-}
+                                                                                .jumbotron {
+                                                                                /* min-width: 300px;
+                                                                            margin: 10px auto;
+                                                                            display: flex;
+                                                                            justify-content: center;
+                                                                            margin: 10px 10px 10px 10px;
+                                                                            border: 0.08em solid black;
+                                                                            text-align: center; */
+                                                                                min-width: 300px;
+                                                                                height: 125px;
+                                                                                margin: 10px auto;
+                                                                                display: flex;
+                                                                                justify-content: center;
+                                                                                margin: 10px 10px 10px 10px;
+                                                                                border: 0.08em solid grey;
+                                                                                text-align: center;
+                                                                                background-color: #F7F7F7;
+                                                                                font-size: 50px;
+                                                                                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                                                                                font-weight: 100;
+                                                                            }
+                                                                            
+                                                                            .row {
+                                                                                min-width: 300px;
+                                                                                height: 125px;
+                                                                                margin: 10px auto;
+                                                                                display: flex;
+                                                                                justify-content: center;
+                                                                                margin: 10px 10px 10px 10px;
+                                                                                border: 0.08em solid grey;
+                                                                                text-align: center;
+                                                                                background-color: #F7F7F7;
+                                                                                font-size: 50px;
+                                                                                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                                                                                font-weight: 100;
+                                                                                /* font-weight: bold; */
+                                                                            }
+                                                                            
+                                                                            @media screen and (max-width: 640px) {
+                                                                                body {
+                                                                                    /* font-weight: 200; */
+                                                                                }
